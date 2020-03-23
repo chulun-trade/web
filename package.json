@@ -1,0 +1,15 @@
+{
+  "name": "chulun-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker:build": "docker build -t ourines/chulun .",
+    "docker:push": "docker push ourines/chulun",
+    "docker:run": "docker run --rm --name chulun -d -p 8080:80 ourines/chulun"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

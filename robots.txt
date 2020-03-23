@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+
+User-Agent: Baiduspider
+Allow: /
+
+User-Agent:MediaPartners-Google
+Allow: /
